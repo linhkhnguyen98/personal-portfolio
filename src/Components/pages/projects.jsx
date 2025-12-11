@@ -36,7 +36,7 @@ const Projects = () => {
                     </tr>
                     <tr>
                         <td>Project 5</td>
-                        <td>Personal Portfolio Website</td>
+                        <td><a href="https://personalportfolio-ln.netlify.app/" title="Personal Portfolio">Personal Portfolio</a></td>
                         <td>React JS</td>
                     </tr>
                     <tr>
