@@ -21,7 +21,7 @@ const Projects = () => {
                     </tr>
                     <tr>
                         <td>Project 2</td>
-                        <td><a href="https://github.com/linhkhnguyen98/TODO-LIST-CRUD-APP" title="To-do List">To-do List</a></td>
+                        <td><a href="https://todolist-lkn.netlify.app" title="To-do List">To-do List</a></td>
                         <td>React JS</td>
                     </tr>
                     <tr>
