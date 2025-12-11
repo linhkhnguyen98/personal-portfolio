@@ -1,0 +1,64 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(240, 205, 211);
+    padding: 35px 7%;
+    transition: background-color 0.5s ease;
+}
+
+.initial-logo{
+    height: auto;
+    width: 5rem;
+}
+
+.initial-logo {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.initial-logo:hover {
+    opacity: 0.8;
+}
+
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display:inline-flex;
+    margin: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* .app {
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0;
+    padding: 0;
+}
+.app.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+} */
+
+.app.dark-mode .navbar {
+    background-color: #5c3a3a;
+    transition: background-color 0.5s ease;
+}
+
+/* Theme toggle icon */
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
