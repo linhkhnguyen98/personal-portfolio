@@ -31,8 +31,32 @@ ul{
 ul li{
     display:inline-flex;
     margin: 10px 20px;
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
+}
+
+ul a {
+    color: #e06067;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 3px;
+    transition: color 0.3s ease;
+}
+
+ul a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #cd3618;
+    transition: width 0.3s ease;
+}
+
+ul a:hover::after {
+    width: 100%;
 }
 
 /* .app {
