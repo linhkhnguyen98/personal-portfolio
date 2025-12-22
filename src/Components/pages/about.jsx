@@ -6,7 +6,7 @@ const About=()=>{
         <div className="about-container">
             <div className="about-content">
 
-                    <p>Hey there! This is Linh Nguyen.
+                    <p>Hey there! This is Linh Nguyen. <br/>
                     Let’s connect and explore the endless possibilities together!
                     </p>
 

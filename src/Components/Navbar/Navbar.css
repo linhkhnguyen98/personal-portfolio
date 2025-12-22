@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(240, 205, 211);
+    background: rgb(254, 191, 229);
     padding: 35px 7%;
     transition: background-color 0.5s ease;
 }
@@ -36,7 +36,7 @@ ul li{
 }
 
 ul a {
-    color: #e06067;
+    color: #d32a32;
     text-decoration: none;
     font-weight: 700;
     position: relative;
@@ -74,8 +74,17 @@ ul a:hover::after {
 } */
 
 .app.dark-mode .navbar {
-    background-color: #5c3a3a;
+    background-color: rgb(121, 46, 196);
     transition: background-color 0.5s ease;
+    color: rgb(254, 255, 255);
+}
+.app.dark-mode ul a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 3px;
+    transition: color 0.3s ease;
 }
 
 /* Theme toggle icon */

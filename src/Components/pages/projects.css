@@ -1,7 +1,7 @@
 .projects-container {
     min-height: calc(100vh - 100px);
     padding: 50px;
-    background-image: url('../assets/luffy-projects.png');
+    background-image: url('../assets/project-page-light-mode.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -23,7 +23,7 @@
     max-width: 1200px;
     margin: 0 auto;
     border-collapse: collapse;
-    background: rgba(208, 127, 127, 0.85);
+    background: rgba(225, 196, 255, 0.85);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,19 +31,19 @@
 .projects-table td {
     padding: 15px 20px;
     text-align: left;
-    color: white;
+    color: rgb(0, 0, 0);
     border-bottom: 1px solid #ddd;
 }
 
 .projects-table th {
-    background-color: rgba(169, 55, 6, 0.70);
-    color: white;
+    background-color: rgba(199, 145, 255, 0.95);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 .projects-table tr:hover {
-    background-color: #ce7e7e;
+    background-color: rgb(221, 188, 255);
 }
 
 .projects-table tr:last-child td {
@@ -51,7 +51,7 @@
 }
 
 .projects-table a {
-    color: #f1f0ec;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: 700;
     position: relative;
@@ -66,7 +66,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: #fef3c7;
+    background: rgb(134, 36, 231);
     transition: width 0.3s ease;
 }
 

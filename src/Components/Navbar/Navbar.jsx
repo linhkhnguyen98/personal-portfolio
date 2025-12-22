@@ -3,7 +3,7 @@ import './Navbar.css'
 import { NavLink } from 'react-router-dom';
 import { MdLightMode } from "react-icons/md";
 import { FaMoon } from "react-icons/fa";
-import initialIcon from '../assets/logo.svg';
+import initialIcon from '../assets/logo-2.svg';
 // import resumePDF from '../src/Components/assets/Main-Resume.pdf';
 
 const Navbar = ({isDarkMode, setIsDarkMode}) => {
