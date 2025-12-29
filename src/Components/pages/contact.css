@@ -1,7 +1,7 @@
 .contact-container {
     min-height: calc(100vh - 100px);
     padding: 50px;
-    background-image: url('../assets/contact-page-light-mode.jpeg');
+    background-image: url('../assets/contact-light-mode.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -72,4 +72,45 @@ form button {
 
 form button:hover {
     background: rgb(247, 136, 202);
+}
+
+.app.dark-mode .contact-container{
+    min-height: calc(100vh - 100px);
+    background-image: url('../assets/contact-dark-mode.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 0.3s ease;
+}
+
+/* Tablet devices (768px and below) */
+@media screen and (max-width: 768px) {
+    .contact-container {
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll; /* Better performance on mobile */
+    }
+}
+
+/* Mobile devices (480px and below) */
+@media screen and (max-width: 480px) {
+    .contact-container {
+        background-size: cover;
+        background-position: center top;
+        background-attachment: scroll;
+        /* Optional: Use smaller image for mobile */
+        /* background-image: url('your-image-mobile.jpg'); */
+    }
+}
+
+/* For very small screens */
+@media screen and (max-width: 320px) {
+    .contact-container {
+        background-size: auto 100%;
+        background-position: center;
+    }
 }

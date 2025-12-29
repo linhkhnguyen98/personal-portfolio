@@ -7,7 +7,9 @@ const About=()=>{
             <div className="about-content">
 
                     <p>Hey there! This is Linh Nguyen. <br/>
-                    Let’s connect and explore the endless possibilities together!
+                    I’m a Computer Engineering graduate with hands-on 
+                    experience in test engineering, system validation, 
+                    and automation across software and hardware.
                     </p>
 
             </div>

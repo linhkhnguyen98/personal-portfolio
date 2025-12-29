@@ -74,7 +74,7 @@ ul a:hover::after {
 } */
 
 .app.dark-mode .navbar {
-    background-color: rgb(121, 46, 196);
+    background-color: rgb(67, 5, 130);
     transition: background-color 0.5s ease;
     color: rgb(254, 255, 255);
 }
